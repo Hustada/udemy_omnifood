@@ -445,11 +445,6 @@ cite {
 	display: block;
 }
 
-cite:before {
-	content: ;
-	
-}
-
 cite img {
 	height: 45px;
 	border-radius: 50%;
@@ -630,4 +625,24 @@ footer p {
 
 .ion-social-instagram:hover {
 	color: #125688;
+}
+
+
+/***************************/
+/* ANIMATIONS */
+/**************************/
+
+.js--wp-1,
+.js--wp-1,
+.js--wp-1 {
+
+	opacity: 0;
+}
+
+/* both classes at the same time for animation */
+
+.js--wp-1.animated,
+.js--wp-2.animated,
+.js--wp-3.animated {
+	opacity: 1;
 }
